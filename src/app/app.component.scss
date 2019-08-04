@@ -1,0 +1,22 @@
+.app {
+  .inputs {
+    display: flex;
+    flex-direction: column;
+
+    .group {
+      margin-bottom: 5px;
+    }
+  }
+
+  .history {
+    max-width: 300px;
+
+    .deposit {
+      color: yellowgreen;
+    }
+
+    .withdraw {
+      color: palevioletred;
+    }
+  }
+}
